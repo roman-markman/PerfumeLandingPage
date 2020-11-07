@@ -24,11 +24,59 @@ img {
     /* Standard syntax */
   }
 
-  .bg-nav {
+.bg-nav {
     background-color: #E66A5F;
   }
 
-  hr {
+hr {
       border-top: 1px solid #E66A5F;
       width: 70%;
-  }
+}
+
+.zoom {
+    transition: all 1s; 
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.left-shift {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    float: left;
+}
+
+.right-padding {
+    padding-right: 30px;
+}
+
+.color-black {
+    color: black;
+}
+
+.alert.alert-danger {
+    border-radius: .5rem;
+    background: rgba(255, 54, 54, 0.2)
+}
+
+.copyright-info {
+    display: flex;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    border: 1px solid #E66A5F;
+    background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+    border: 1px solid #E66A5F;
+    background-color: #E66A5F;
+    
+}
